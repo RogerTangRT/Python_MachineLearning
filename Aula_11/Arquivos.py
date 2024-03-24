@@ -28,5 +28,8 @@ print('Cabeçalhos dadosExcel:\n',dadosExcel.head(2))
 # https://www.kaggle.com/datasets/heesoo37/120-years-of-olympic-history-athletes-and-results
 # Dados dos atletas das olimpíadas
 
-dadosCSV = pd.read_csv('C:/Users/Roger/Documents/GitHub/Python/MachineLearning/Aula_11/athiete_events.csv')
+dadosCSV = pd.read_csv('C:/Users/Roger/Documents/GitHub/Python/MachineLearning/Aula_11/athlete_events.csv')
+# Imprime os 5 primeiros registros
 print('dadosCSV:\n',dadosCSV.head())
+# Imprime otoda tabela
+print('dadosCSV:\n',dadosCSV)

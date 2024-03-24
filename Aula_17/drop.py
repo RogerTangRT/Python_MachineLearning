@@ -4,7 +4,7 @@
 # Bibliotecas para uso de dataframes
 import pandas as pd
 
-dadosExcel = pd.read_excel('C:/Users/Roger/Documents/GitHub/Python/MachineLearning/Aula_11/athiete_events.xlsx')
+dadosExcel = pd.read_csv('C:/Users/Roger/Documents/GitHub/Python/MachineLearning/Aula_11/athlete_events.csv')
 
 # Primeira coluna são os índices das linhas (ID)
 # Imprime todos dados

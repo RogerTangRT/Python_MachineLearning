@@ -15,7 +15,7 @@ import pandas as pd
 # df.rename(columns={'A':'B'}, inplace=True)
 
 # Lendo dados do CSV. Não funciona
-dadosCSV = pd.read_csv('C:/Users/Roger/Documents/GitHub/Python/MachineLearning/Aula_11/athiete_events.csv')
+dadosCSV = pd.read_csv('C:/Users/Roger/Documents/GitHub/Python/MachineLearning/Aula_11/athlete_events.csv')
 print('Dataset original\n')
 print(dadosCSV)
 print('\nColunas originais\n')
